@@ -1,2 +1,2 @@
 # Block-Breakout
-Nothing
+A mod about Minecraft

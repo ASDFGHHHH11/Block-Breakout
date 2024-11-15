@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="1.20.1"
+license="GPL-3"
+[[mods]]
+modId="blockbreakout"
+version="1.20.1-1.0.0"
+displayName="Block Breakout"
+logoFile="logo.png"
+authors="lyx2333"
+description='''About Arena Breakout equipment'''
+[[dependencies."${mod_id}"]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+[[dependencies."${mod_id}"]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
